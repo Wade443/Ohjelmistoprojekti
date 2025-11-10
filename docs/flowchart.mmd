@@ -1,0 +1,17 @@
+
+flowchart TD
+    A[Start] --> B[Show menu]
+    B -->|1: Add| C[Ask task + priority]
+    C --> D[Append to list]
+    D --> B
+    B -->|2: List| E[List items]
+    E --> B
+    B -->|3: Done| F[Mark as done]
+    F --> B
+    B -->|4: Remove| G[Remove item]
+    G --> B
+    B -->|5: Save| H[Save JSON]
+    H --> B
+    B -->|6: Load| I[Load JSON]
+    I --> B
+    B -->|0: Exit| J[Exit]
