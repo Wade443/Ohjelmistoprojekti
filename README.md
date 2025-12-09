@@ -58,4 +58,4 @@ git push -u origin feature/<nimi>
 4) Avaa Pull Request → katselmointi → merge.
 
 ## Video
-(https://youtu.be/I0qY3iGNEJo)
+https://youtu.be/I0qY3iGNEJo
